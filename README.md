@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Porject Readme.md
+## Project Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Name:** Your Blogger <br><br>
+**Purpose of creation:** Zense Tech-Role recruitment 2023 <br><br>
+**Role:** To serve as a social blogging platform for a small community of people. Be a source of reading on topics like tech news and community events and to help share valuable experiences and advice. <br><br>
+**Project Author:** Jashwanth Kadaru, IMT2021095 <br><br>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+## Tech Stack:
 
-### `npm start`
+This section can be updated over time, as new ideas and difficulties arise while building the project. Each edit to the topic will be appended below the previous edits along with the date and reason, for the sake of transparency and clarity.
+<br><br>
+**Initial Commit #0** <br>
+This is a web application and will be built in two parts: `react client app` and `server hosting rest API` for the platform. On the client side, we use `react JS` and `react router` along with `HTML` and `CSS`. On the server side, we use `node js` and `express JS` frameworks to build the `REST` API. Whenever the client hits one of the API endpoints `(URLs)`, the server will do some operations and sends back the result. This might involve making changes to the database. Databases are used for persistent storage of data and also efficient retrieval of data. For the Database, we will be using `mongoDB`, which is a `noSQL` type of database system which stores data in a manner similar to javascript object notation `(JSON)`. To interact with the database via server code, we use the `mongoose` library which comes through the npm package manager. This will let us create code-based schemas for the objects to be stored in the database and make noSQL queries to retrieve data using javascript.    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<hr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features:
+* User Authentication: Allow users to register and log in to the app using their email or social media accounts.
 
-### `npm test`
+* User Profiles: Each user should have a profile page where they can add a profile picture, bio, and other relevant information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Blog Posts: Users should be able to create, edit, and delete blog posts. Each post should have a title, content, tags, and a featured image.
 
-### `npm run build`
+* Categories and Tags: Implement a system for categorizing posts using tags or categories, making it easier for users to find relevant content.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Comments and Interactions: Enable users to leave comments on blog posts to encourage engagement and interaction among members.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Like and Share: Allow users to like and share blog posts to increase visibility and encourage user-generated content.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Search Functionality: Implement a search bar to help users find specific blog posts or topics.
 
-### `npm run eject`
+* Notifications: Send users notifications when there are new posts, comments, or interactions related to their content.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Admin Panel: Create an admin dashboard to manage users, posts, comments, and other app settings easily.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Responsiveness: Ensure the app is mobile-friendly and works well on different devices.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to run the project folder on local node js environment:
+  
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Hosting site address:
+  
+-->
