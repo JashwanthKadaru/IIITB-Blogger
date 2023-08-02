@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# added by me (Jashwanth Kadaru)
+# ignore all .txt files 
+*.txt
+
+# created by npx create-react-app by default.
 # dependencies
 /node_modules
 /.pnp
