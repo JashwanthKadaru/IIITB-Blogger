@@ -13,6 +13,11 @@ function App() {
 
         {(username!=="")?<p> Welcome, {username}</p>:null}
       </header>
+
+      <footer className='blog-footer'>
+        <p> Copyright &copy; August 2023 </p>
+        <p> Made with &hearts; by Jashwanth Kadaru </p>
+      </footer>
     </div>
   );
 }

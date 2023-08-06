@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+/* HEADER | BODY | FOOTER */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .blog-header {
-    background-color: #293e68;
+    background-color: #232f47;
     margin: 0;
     padding: 15px;
     min-height: 15vh;
@@ -25,5 +33,20 @@
     margin-bottom: 10px;
     color: #aaaaaa;
     font-family: 'Poppins', sans-serif;
+}
 
+.blog-footer {
+    background-color: #232f47;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-footer p {
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 10px 0;
 }
