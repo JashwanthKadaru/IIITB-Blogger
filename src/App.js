@@ -14,6 +14,9 @@ function App() {
         {(username!=="")?<p> Welcome, {username}</p>:null}
       </header>
 
+      <div className='blog-body'>
+        <p> Hello </p>
+      </div>
       <footer className='blog-footer'>
         <p> Copyright &copy; August 2023 </p>
         <p> Made with &hearts; by Jashwanth Kadaru </p>
