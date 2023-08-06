@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.blog-header {
+    background-color: #293e68;
+    margin: 0;
+    padding: 15px;
+    min-height: 15vh;
+}
+
+.blog-header h1 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.blog-header p {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #aaaaaa;
+    font-family: 'Poppins', sans-serif;
+
+}
