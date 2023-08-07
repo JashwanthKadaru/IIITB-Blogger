@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import HomePage from './screens/HomePage';
+import ProfilePage from './screens/ProfilePage';
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
 
       <div className='blog-body'>
         {/* <p> Hello </p> */}
-        <HomePage/>
+        {/* <HomePage/> */}
+        <ProfilePage/>
       </div>
 
       <footer className='blog-footer'>
