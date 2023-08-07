@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import HomePage from './screens/HomePage';
 
 function App() {
   
@@ -15,8 +16,10 @@ function App() {
       </header>
 
       <div className='blog-body'>
-        <p> Hello </p>
+        {/* <p> Hello </p> */}
+        <HomePage/>
       </div>
+
       <footer className='blog-footer'>
         <p> Copyright &copy; August 2023 </p>
         <p> Made with &hearts; by Jashwanth Kadaru </p>
