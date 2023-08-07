@@ -4,16 +4,37 @@
     margin: 10px auto;
     margin-top: 40px;
     padding: 30px 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: min(80vh, 750px);
     max-height: min(100vh, 950px);
 
     box-shadow: 2px 2px 10px 0px black;
     border-radius: 10px;
 
-    overflow-x: hidden;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home-scroll-view {
+    width: 95%;
+    margin: 5px auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .home-feed {
+        border-radius: 5px;
+        padding: 20px 2px;
+    }
+
+    .home-scroll-view {
+        width: 100%;
+    }
 }

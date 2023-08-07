@@ -5,6 +5,8 @@ const HomeFeed = ({feed}) => {
     let i=0;
     return (
         <div className="home-feed">
+
+            <div className='home-scroll-view'>
             { 
                 feed.map((item) => { 
                 i++;
@@ -18,6 +20,7 @@ const HomeFeed = ({feed}) => {
                 ) 
               })
             }
+            </div>
         </div>
     )
 }

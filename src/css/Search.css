@@ -22,3 +22,14 @@
 
     padding: 3px;
 }
+
+@media screen and (max-width: 500px) {
+    .search-bar {
+        width: 90%;
+    } 
+
+    .search-bar input {
+        width: 80%;
+        margin-bottom: 5px;
+    }        
+}
