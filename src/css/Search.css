@@ -16,6 +16,8 @@
 
 .search-bar .search-icon {
     margin-left: 5px;
-    margin-top: 2px;
+    margin-top: 1px;
     color: #232f47;
+
+    padding: 3px;
 }
