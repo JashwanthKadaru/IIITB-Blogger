@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import HomePage from './screens/HomePage';
 import ProfilePage from './screens/ProfilePage';
+import SignUpPage from './screens/SignUpPage';
 
 function App() {
   
@@ -19,7 +20,8 @@ function App() {
       <div className='blog-body'>
         {/* <p> Hello </p> */}
         {/* <HomePage/> */}
-        <ProfilePage/>
+        {/* <ProfilePage/> */}
+        <SignUpPage/>
       </div>
 
       <footer className='blog-footer'>
