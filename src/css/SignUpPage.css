@@ -1,17 +1,75 @@
 .sign-up-div {
     width: fit-content;
+    max-width: min(60%, 500px);;
     min-width: min(60%, 500px);
     padding: 10px 10px;
     margin: 30px auto;
 
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #bbb;
+    overflow-x: hidden;
+}
+
+.su-pages {
+    /* display: grid;
+    grid-template-columns: repeat(3,var(--width));
+    grid-template-rows: auto; */
+    /* gap: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* border: 1px solid black; */
+    padding: 0;
+    height: fit-content; 
+    --width: calc(100%);
+    /* --width1page : calc(0);
+    --width2page : calc(-50vw - 10px);
+    --width3page : calc(-100vw - 20px); */
+    --width1page : calc(0);
+    --width2page : calc((-1*(var(--width))));
+    --width3page : calc(-1*(var(--width)) + -1*(var(--width)));
+}
+
+.page1 {
+    transform: translateX(calc(var(--width1page)));
+    transition: 0.3s;
+    /* background-color: blue; */
+}
+
+.page2 {
+    transform: translateX(calc(var(--width2page)));
+    transition: 0.3s;
+    /* background-color: red; */
+}
+
+.page3 {
+    transform: translateX(calc(var(--width3page)));
+    transition: 0.3s;
+    /* background-color: green; */
+}
+
+.su-page {
+    display: inline-block;
+    /* width: 400px; */
+    height: fit-content;
+    min-width: calc(0.96*var(--width));
+    max-width:  calc(0.96*var(--width));
+    padding: 10px 10px;
+    margin: 30px 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .su-icon {
+    display: block;
+    margin: 0 auto;
     color: #344973;
     width: 80px;
     height: 80px;
@@ -21,7 +79,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 32px;
-    margin: 0;
+    width: fit-content;
+    margin: 0 auto;
     margin-top: 15px;
     color: #344973;
 }
@@ -31,6 +90,9 @@
     font-family: 'Poppins';
     font-size: 0.9rem;
     color: #8096c2;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 .su-form-input {
@@ -72,3 +134,158 @@ input:hover ,select:hover, input:active ,select:active, input:focus-visible ,sel
     margin-top: 10px;
 }
 
+.su-buttons {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+
+#su-front, #su-back {
+    display:inline-block;
+    border: none;
+    background-color: transparent;
+    color:#657eb1;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 500px) {
+ .sign-up-div {
+    width: fit-content;
+    max-width: min(85%, 500px);;
+    min-width: min(85%, 500px);
+    padding: 10px 10px;
+    margin: 30px auto;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #bbb;
+    overflow-x: hidden;
+}
+
+.su-pages {
+    /* display: grid;
+    grid-template-columns: repeat(3,var(--width));
+    grid-template-rows: auto; */
+    /* gap: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* border: 1px solid black; */
+    padding: 0;
+    height: fit-content; 
+    --width: calc(90%);
+    /* --width1page : calc(0);
+    --width2page : calc(-50vw - 10px);
+    --width3page : calc(-100vw - 20px); */
+    --width1page : calc(2px);
+    --width2page : calc((-1*(var(--width))) + -18px);
+    --width3page : calc(-1*(var(--width)) + -1*(var(--width)) + -41px);
+}
+
+.page1 {
+    transform: translateX(calc(var(--width1page)));
+    transition: 0.3s;
+    /* background-color: blue; */
+}
+
+.page2 {
+    transform: translateX(calc(var(--width2page)));
+    transition: 0.3s;
+    /* background-color: red; */
+}
+
+.page3 {
+    transform: translateX(calc(var(--width3page)));
+    transition: 0.3s;
+    /* background-color: green; */
+}
+
+.su-page {
+    display: inline-block;
+    /* width: 400px; */
+    height: fit-content;
+    min-width: calc(var(--width));
+    max-width:  calc(var(--width));
+    padding: 10px 10px;
+    margin: 30px 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.su-icon {
+    display: block;
+    margin: 0 auto;
+    color: #344973;
+    width: 80px;
+    height: 80px;
+}
+
+.sign-up-div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #344973;
+}
+
+.sign-up-div p {
+    margin: 5px;
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+    color: #8096c2;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.su-form-input {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.su-form-input label {
+    font-family: 'Poppins';
+    font-size: 0.75rem;
+    font-weight: 600;
+    color:#657eb1;
+}
+
+.sign-up-div h2 {
+    padding: 0 1%;
+}
+}
+/* 
+@media screen and (min-width: 800px){
+.su-pages {
+    width: 200vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+.page1 {
+    transform: translateX(-6.5%);
+}
+
+.page2 {
+    transform: translateX(-40%);
+}
+
+.page3 {
+    transform: translateX(-74%);
+}
+ 
+} */
