@@ -1,7 +1,7 @@
 # Porject Readme.md
 ## Project Description:
 
-**Project Name:** Your Blogger <br><br>
+**Project Name:** Your Blogger (Frontend Only Project. Backend was not Finished. Not hosted on any hosting service.)<br><br>
 **Purpose of creation:** Zense Tech-Role recruitment 2023 <br><br>
 **Role:** To serve as a social blogging platform for a small community of people. Be a source of reading on topics like tech news and community events and to help share valuable experiences and advice. <br><br>
 **Project Author:** Jashwanth Kadaru, IMT2021095 <br><br>
@@ -40,9 +40,9 @@ This is a web application and will be built in two parts: `react client app` and
 <hr>
 
 ## How to run the project folder on local node js environment:
-  
+* Install and setup node js and React.
+* clone the repo and change to the directory.
+* Open terminal and run `npm install` to install all dependencies.
+* Run `npm start` to run the frontend. 
 <hr>
 
-## Hosting site address:
-  
--->
